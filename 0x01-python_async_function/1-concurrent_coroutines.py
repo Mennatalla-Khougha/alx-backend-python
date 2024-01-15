@@ -20,5 +20,6 @@ async def wait_n(n: int, max_delay: int) -> List[float]:
     :return: The function `wait_n` returns a sorted list of floats.
     """
     tasks = [wait_random(max_delay) for i in range(n)]
+    
     result = await asyncio.gather(*tasks)
     return sorted(result)
