@@ -15,8 +15,8 @@ async def task_wait_n(n: int, max_delay: int) -> List[float]:
     :param n: The parameter `n` represents the number of tasks to be executed\
         concurrently
     :type n: int
-    :param max_delay: The `max_delay` parameter represents the maximum amount of\
-        time (in seconds) that
+    :param max_delay: The `max_delay` parameter represents the maximum amount\
+        of time (in seconds) that
     each task can wait before completing
     :type max_delay: int
     :return: a list of floats.
