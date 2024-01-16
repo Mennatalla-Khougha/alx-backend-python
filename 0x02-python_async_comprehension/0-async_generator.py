@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """This Module define the async_generator function"""
 import asyncio
 from typing import Generator
