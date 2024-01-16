@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """This module define the async_comprehension function"""
 import asyncio
 async_generator = __import__('0-async_generator').async_generator
